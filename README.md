@@ -24,7 +24,7 @@ def get_random_quote():
 quote = get_random_quote()
 
 # Append to quotes file
-with open("motivational_quotes.txt", "a", encoding="utf-8") as :
+with open("motivational_quotes.txt", "a", encoding="utf-8") as f:
     f.write(f"{datetime.datetime.now()}: {quote}\n")
 
 # Git commands
